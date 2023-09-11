@@ -1,18 +1,14 @@
-
 body
 {
     background-image: url("image.png");
     background-repeat:no-repeat;
     background-size:cover;    
-    border: 4px solid green;
-    
+    border: 4px solid green;    
 }
-
 .main
 {
     border:4px solid yellowgreen;
 }
-
 .blk
 {
     border: 4px solid red;
@@ -20,7 +16,6 @@ body
     background-color: black;
     color:white;
 }
-
 .wlcme
 {
     height: 100px;
@@ -30,7 +25,6 @@ body
     top:20px;
     left:20px;
 }
-
 .home
 {
     height: 50px;
@@ -40,7 +34,6 @@ body
     top :50px;
     left:150px;
 }
-
 .email
 {
     height: 90px;
@@ -50,14 +43,12 @@ body
     top:-40px;
     left: 1000px;
 }
-
 .contain2
 {    
     display:flex;    
     flex-flow: row;
     justify-content: space-evenly;
 }
-
 .crcle
 {
     text-align: center;
@@ -71,7 +62,6 @@ body
     padding: 2%;
     background-color: rgb(28, 89, 221);
 }
-
 .reg
 {
     text-align: center;
@@ -81,7 +71,6 @@ body
     width:290px ;
     background-color: white; 
 }
-
 .menu
 {
     text-align: center;
@@ -92,10 +81,8 @@ body
     left: 500px;
     font-size:28px;
 }
-
 .mainbox
 {
-    
     color: rgba(103,36,138);
     margin: auto;
     width: 900px;
@@ -104,9 +91,9 @@ body
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 40px;
+    position: relative;
     bottom:50px;
 }
-
 .box
 {
     border: 2px solid green;
@@ -115,5 +102,4 @@ body
     height: 300px;
     background-color: aqua;
     text-align: center;
-
 }
